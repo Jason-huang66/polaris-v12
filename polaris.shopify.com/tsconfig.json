@@ -20,7 +20,10 @@
     "composite": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "downlevelIteration": true
+    "downlevelIteration": true,
+    "paths": {
+      "react": ["./node_modules/@types/react"]
+    }
   },
   "include": [
     "src",
